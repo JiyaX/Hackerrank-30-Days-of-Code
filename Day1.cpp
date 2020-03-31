@@ -16,18 +16,13 @@ int main() {
    
    cin>>j;
    cin>>k;
-   getline(cin,l);  // Declare second integer, double, and String variables.
-    
-    // Read and save an integer, double, and String to your variables.
-    string m=s+l;
+   getline(cin,l);// inputs all the empty space after the previous input (i.e k) and before the next input as a string
+    getline(cin,o);//inputs the actual string
+   
+  
     cout<<j+i<<endl;
-    cout<<d+k<<endl;
-    cout<<m<<endl;  // Print the sum of both integer variables on a new line.
-    
-    // Print the sum of the double variables on a new line.
-    
-    // Concatenate and print the String variables on a new line
-    // The 's' variable above should be printed first.
+    cout<<setprecision(1)<<fixed<<d+k<<endl; //setprecision(1) and fixed are used to obtain the output to a particular decimal point precision.
+    cout<<m<<endl;  
 
     return 0;
 }
