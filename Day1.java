@@ -15,8 +15,8 @@ public class Solution {
 
         int j=scan.nextInt();
         double k=scan.nextDouble();
-        String l=scan.nextLine();
-        l+=scan.nextLine();
+        String l=scan.nextLine(); //contains rest of the line
+        l+=scan.nextLine(); //contains needed input
 
 
         System.out.println(i+j);
