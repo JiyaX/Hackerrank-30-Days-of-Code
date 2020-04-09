@@ -26,7 +26,7 @@ public class Solution {
         }
 
         
-        int max=0;
+        int max=-63;
         int sum=0;
         for(int m=0;m<4;m++)
         {
